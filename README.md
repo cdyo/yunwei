@@ -24,7 +24,7 @@ Hue	          | 3.12.0
 Flume		  | 1.8.0
 Oozie	      | 5.0.0
 
-##相关命令
+## 相关命令
 ### 启动操作（可启动服务kafka,hbase,hive,redis,hadoop,strom,kafka-rest）
 #### 启动hadoop
     sh beh.sh start hadoop
