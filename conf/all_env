@@ -1,0 +1,70 @@
+#!/bin/bash
+#LANG
+export LANG=en_US.UTF-8
+
+#BEH
+export BEH_HOME=/opt/beh
+
+#JDK
+export JAVA_HOME=$BEH_HOME/core/jdk
+
+#HADOOP 2.6.4
+export HADOOP_HOME=$BEH_HOME/core/hadoop
+#export HADOOP_COMMON_HOME=/opt/beh/core/hadoop
+#export HADOOP_MAPRED_HOME=/opt/beh/core/hadoop
+#export HADOOP_CONF_DIR=/opt/beh/core/hadoop/etc/hadoop
+#export PUB_KEY_HOME=/home/hadoop/.ssh/id_rsa
+#export HADOOP_CMD=$HADOOP_HOME/bin/hadoop
+#export HADOOP_STREAMING=/opt/beh/core/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.6.4.jar
+
+#export HADOOP_PID_DIR=/opt/beh/run
+#export HADOOP_MAPRED_PID_DIR=/opt/beh/run
+#export YARN_PID_DIR=/opt/beh/run
+
+#STORM
+export STORM_HOME=/opt/bek/core/storm
+export STORM_LOG_DIR=/opt/bek/logs/storm
+
+#ZOOKEEPER
+export ZOOKEEPER_HOME=/opt/beh/core/zookeeper
+#export ZOOPIDFILE=/opt/beh/run/zookeeper_server.pid
+
+#export ZOO_LOG_DIR=$BEH_HOME/logs/zookeeper
+export HIVE_HOME=/opt/beh/core/hive
+
+#KAFKA
+export KAFKA_HOME=/opt/bek/core/kafka
+export KAFKA_LOG_DIR=/opt/bek/logs/kafka
+
+#KAFKA_REST
+export KAFKA_REST_HOME=/opt/bek/core/kafka-rest
+export KAFKA_REST_LOG_DIR=/opt/bek/logs/kafka-rest
+
+#KAFKA_SCHEMA_HOME
+export KAFKA_SCHEMA_HOME=/opt/bek/core/kafka-schema-registry
+export KAFKA_SCHEMA_LOG_DIR=/opt/bek/logs/kafka-schema-registry
+
+#SPARK
+export SPARK_HOME=/opt/beh/core/spark
+
+#TEZ   0.9.1
+#export TEZ_HOME=/opt/beh/core/tez
+
+#mariadb
+#export MYSQL_HOME=/opt/beh/core/mariadb
+
+#HBASE 
+export HBASE_HOME=/opt/beh/core/hbase
+
+#HIVE
+export HIVE_HOME=/opt/beh/core/hive
+export HIVE_LOG_DIR=/opt/beh/logs/hive
+
+#REDIS
+export REDIS_HOME=/opt/beh/core/redis
+
+#elasticsearch
+#export ES_HOME=/opt/beh/core/elasticsearch
+
+#PATH
+export PATH=$HBASE_HOME/bin:$SPARK_HOME/bin:$MYSQL_HOME/bin:$ZOOKEEPER_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$HIVE_HOME/bin:$REDIS_HOME/bin:$KAFKA_HOME/bin:$KAFKA_REST_HOME/bin:$KAFKA_SCHEMA_HOME/bin:$STORM_HOME/bin:$PATH
